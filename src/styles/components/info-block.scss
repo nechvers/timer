@@ -1,0 +1,21 @@
+.info-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 105px;
+    font-size: 1.125rem;
+
+    &__label {
+        font-weight: bold;
+    }
+
+    &__content {
+        min-height: 27px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.2);
+        color: var(--color-primary);
+        border-radius: 6px;
+        box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    }
+}

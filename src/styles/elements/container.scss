@@ -1,0 +1,9 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 15px 5px;
+
+    @media screen and (min-width: $sm) {
+        padding: 20px 40px 5px;
+    }
+}
